@@ -1,0 +1,88 @@
+# ── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ── Virtual Environments ─────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Keras / TensorFlow Model Files ───────────────
+# Keep gesture_model.h5 and gesture_model_backup.h5
+# but ignore any auto-generated checkpoints
+*.ckpt
+*.ckpt.index
+*.ckpt.data-*
+checkpoint
+saved_model/
+logs/
+training_results.png
+
+# ── Dataset ──────────────────────────────────────
+# Uncomment the line below if you don't want to
+# push gesture_data.csv to GitHub (it can be large)
+# gesture_data.csv
+
+# ── IDE and Editor Files ─────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# ── OS Files ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Jupyter Notebooks (if any) ───────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs and Temp Files ──────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# ── Pip / Package Files ──────────────────────────
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# ── Compiled C Extensions ────────────────────────
+*.so
+*.pyd
+
+# ── Coverage and Testing ─────────────────────────
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ── Video Files ──────────────────────────────────
+# Ignore large video files in the videos/ folder
+videos/*.mp4
+videos/*.mkv
+videos/*.avi
+videos/*.mov
+
+# ── Miscellaneous ────────────────────────────────
+*.pkl
+*.pickle
+*.npy
+*.npz
